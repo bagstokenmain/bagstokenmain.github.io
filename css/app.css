@@ -108,7 +108,7 @@ h2,
 @media only screen and (max-width: 767px) {
   h2,
 .h2 {
-    font-size: 40px;
+    font-size: 26px;
   }
 }
 
@@ -464,12 +464,12 @@ h6,
 
 @media only screen and (max-width: 767px) {
     .image-mobile {
-        width: 320px !important;
-        height: 400px !important;
-        margin: 0 auto !important;
+        width: 280px !important;
+        height: 300px !important;
+        margin: 0 auto !important
     }
     .banner-mobile {
-        padding: 90px 0 0 0 !important;
+        padding: 45px 0 0 0 !important;
     }
     .banner-mobile-left {
         padding: 40px 0 0 0 !important;
@@ -1083,9 +1083,9 @@ a {
 .header #main-nav-mobi {
   display: block;
   margin: 0 auto;
-  width: 100%;
+  width: 85%;
   position: absolute;
-  top: 100%;
+  top: 15px;
   left: 0;
   z-index: 999999;
   box-shadow: 0px 3px 16px rgba(47, 83, 109, 0.12);
@@ -1395,6 +1395,16 @@ a {
 @media only screen and (max-width: 767px) {
   .banner .banner__left {
     padding: 80px 0 100px;
+  }
+  .banner .block-text .desc {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .banner .block-text .heading {
+    margin-bottom: 15px;
+  }
+  .header__logo img {
+    width: 100px;
   }
 }
 
@@ -2675,7 +2685,7 @@ img.mfp-img {
 }
 
 .about {
-  padding: 0 0 100px;
+  padding: 0 0 50px;
   position: relative;
   padding-top: 100px;
 }
@@ -2900,7 +2910,7 @@ img.mfp-img {
 }
 
 .speciality {
-  padding: 100px 0 75px;
+  padding: 50px 0;
   position: relative;
 }
 .speciality .container {
@@ -5688,11 +5698,11 @@ section.banner.s3.s2 .container .swiper-button-prev {
 }
 .dice-mobile {
   position: absolute;
-  bottom: 50px;
+  bottom: 25px;
   height: auto;
   left: 0;
   z-index: 99;
-  width: 220px;
+  width: 250px;
 }
 .add-top {
   margin-top: 100px;
@@ -5713,9 +5723,9 @@ section.banner.s3.s2 .container .swiper-button-prev {
 
 @media only screen and (max-width: 767px) { 
   .bank-error {
-    width: 200px;
+    width: 180px;
     bottom: unset;
-    top: 380px;
+    top: 390px;
     right: -70px;
   }
   .dice {
@@ -5727,6 +5737,12 @@ section.banner.s3.s2 .container .swiper-button-prev {
   .phase_icon {
     width: 80%;
     margin-bottom: 15px;
+  }
+  .about .about__right {
+    padding-bottom: 0;
+  }
+  .about {
+    padding: 0;
   }
 }
 
@@ -5864,6 +5880,12 @@ margin: auto;
   }
   .speciality-box {
     margin-bottom: 10px;
+  }
+  .speciality {
+    padding: 25px 0;
+  }
+  .add-top {
+    margin-top: 0;
   }
 }
 
