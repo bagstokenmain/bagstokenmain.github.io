@@ -472,7 +472,7 @@ h6,
         padding: 45px 0 0 0 !important;
     }
     .banner-mobile-left {
-        padding: 40px 0 0 0 !important;
+        padding: 30px 0 0 0 !important;
     }
     .banner .banner__right .image {
       padding-bottom: 30px !important;
@@ -1404,6 +1404,7 @@ a {
   .banner .block-text .desc {
     font-size: 16px;
     line-height: 18px;
+    margin-bottom: 15px;
   }
   .banner .block-text .heading {
     margin-bottom: 15px;
