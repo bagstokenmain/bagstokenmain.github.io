@@ -5868,6 +5868,15 @@ margin: auto;
 }
 
 
+@media only screen and (max-width: 1199px) { 
+.icons-box-special {
+  background: #c2d5ca;
+  margin-bottom: 10px;
+}
+.last-box  {
+  margin: 0 auto;
+}
+}
 @media only screen and (min-width: 1200px) { 
   .col-xl-fifth {
     width: 20%;
