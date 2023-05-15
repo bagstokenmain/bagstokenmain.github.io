@@ -6131,7 +6131,19 @@ margin: auto;
   max-width: 320px;
   margin: 0 auto;
 }
+.small-max {
+  width: 280px;
+  margin: 0 auto;
+}
+.house-right {
+  width: 200px;
+    right: -150px;
+}
 
+.house-left {
+  width: 200px;
+  left: -150px;
+}
 }
 
 .split-arrows {
