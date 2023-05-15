@@ -6120,6 +6120,11 @@ margin: auto;
 .bg-wrapper {
   min-height: unset !important;
 }
+.split-arrows {
+  max-width: 320px;
+  margin: 0 auto;
+}
+
 }
 
 
