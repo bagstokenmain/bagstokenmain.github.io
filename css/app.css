@@ -1437,7 +1437,12 @@ a {
 .block-text h2 {
   color: #286f50;
 }
-
+iframe {
+  max-width: 700px;
+  margin: 0 auto;
+  max-height: 800px;
+  display: block;
+}
 .banner {
   position: relative;
   background: url("../images/bg-banner.png") no-repeat;
@@ -6128,6 +6133,10 @@ margin: auto;
 
 }
 
+.split-arrows {
+  margin: 0 auto;
+  display: block;
+}
 
 
 @media only screen and (min-width: 767px) and (max-width: 1199px) { 
