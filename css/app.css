@@ -1442,6 +1442,7 @@ a {
   position: relative;
   background: url("../images/bg-banner.png") no-repeat;
   background-size: cover;
+  z-index: 100;
 }
 .banner .block-text .heading {
   margin-bottom: 40px;
@@ -6114,7 +6115,7 @@ margin: auto;
   }
   .pool-amount {
     font-size: 20px;
-    text-shadow: 2px 2px 4px #FF0000;
+    /* text-shadow: 2px 2px 4px #FF0000; */
   }
 
 .bg-wrapper {
