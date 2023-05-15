@@ -6121,6 +6121,7 @@ margin: auto;
   }
   .pool-amount {
     font-size: 20px;
+    text-shadow: 1px 1px 1px #FF0000;
     /* text-shadow: 2px 2px 4px #FF0000; */
   }
 
