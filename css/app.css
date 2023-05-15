@@ -6116,6 +6116,10 @@ margin: auto;
     font-size: 20px;
     text-shadow: 2px 2px 4px #FF0000;
   }
+
+.bg-wrapper {
+  min-height: unset !important;
+}
 }
 
 
