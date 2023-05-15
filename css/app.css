@@ -52,6 +52,7 @@ body {
   left: -20px;
   width: calc(100% + 40px);
   height: calc(100vh + 52px);
+  min-height: 1100px;
 }
 .bg1, .bg2, .bg3, .bg0 {
   height: 100%;
